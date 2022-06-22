@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Ubuntu:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Latest compiled and minified CSS by Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/dce47c8bef.js" crossorigin="anonymous"></script>
+
+
+  <!-- Custom CSS written by me -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>MeowHub</title>
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid title">
+
+      <!-- This is NavBar -->
+      <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid" style="padding-left: 0; padding-right: 0;">
+          <a class="navbar-brand" href="#"><span class="navbar-brand mb-0 h1">MeowHub</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Breeds
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">American Shorthair</a></li>
+                  <li><a class="dropdown-item" href="#">Ragdolls</a></li>
+                  <li><a class="dropdown-item" href="#">Persian</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="main-h1">The online Cat shop for indian needs </h1>
+          <button type="button" class="btn btn-light btn-lg cta-btn"><i class="fa-solid fa-cat"></i> Select Cat</button>
+          <button type="button" class="btn btn-success btn-lg cta-btn"><i class="fa-solid fa-phone"></i> Call
+            Us</button>
+        </div>
+
+        <!-- Cat main Image -->
+        <div class="col-lg-6">
+          <img src="images/Cat.png" alt="Cat" width="120%">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Features">
+
+    <div class="row Features">
+      <div class="col-lg-4 f-div">
+        <div class="icon"><i class="fa-solid fa-truck"></i></div>
+        <h3 class="feature-h3">All India Shipping</h3>
+        <p class="feature-p">We ship from every urban place to every rural place</p>
+      </div>
+      <div class="col-lg-4 f-div">
+        <div class="icon"><i class="fa-solid fa-square-check"></i></div>
+        <h3 class="feature-h3">Best Quality Cats</h3>
+        <p class="feature-p">Best groomed and trained cats that everyone loves</p>
+      </div>
+      <div class="col-lg-4 f-div">
+        <div class="icon"><i class="fa-solid fa-recycle"></i></div>
+        <h3 class="feature-h3">Easy Returns</h3>
+        <p class="feature-p">We take returns from your doorstep in such cases</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="testimonials">
+
+    <div id="my-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <div class="test-row">
+            <img class="test-img" src="images/cat-owner-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nunc at eros pharetra
+              condimentum velat metus.</p>
+            <h3 class="test-h3">Mr. Johny Sins</h3>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="test-row">
+            <img class="test-img" src="images/cat-owner-2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nunc at eros pharetra
+              condimentum velat metus.</p>
+            <h3 class="test-h3">Angelena Jolly</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="test-row">
+            <img class="test-img" src="images/cat-owner-3.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nunc at eros pharetra
+              condimentum velat metus.</p>
+            <h3 class="test-h3">Deni Denials goddes</h3>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#my-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#my-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </div>
+  </section>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <section id="breeds">
+    <h1 class="main-h1">Breeds</h1>
+    <p class="breed-p1">Choose a perfect breed cat for you That mmatches your family and type so it can be like your
+      family. </p>
+      
+    <div class="row deck">
+      <div class="col-lg-4 col-md-6 cat-breed">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="breed-h3">Persian Cat</h3>
+          </div>
+          <div class="card-body">
+            <p class="breed-p2">Regular Vaccination</p>
+            <p class="breed-p2">24*7 Help Center access</p>
+            <p class="breed-p2">Health Insuerance</p>
+            <p class="breed-p2">Reguler Health check visits</p>
+          </div>
+          <button type="button" class="btn btn-outline-success btn-block">Buy Persian</button>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 cat-breed">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="breed-h3">Ragdolls</h3s>
+          </div>
+          <div class="card-body">
+            <p class="breed-p2">Regular Vaccination</p>
+            <p class="breed-p2">24*7 Help Center access</p>
+            <p class="breed-p2">Health Insuerance</p>
+            <p class="breed-p2">Reguler Health check visits</p>
+          </div>
+          <button type="button" class="btn btn-outline-success btn-block">Buy Ragdolls</button>
+        </div>
+      </div>
+      <div class="col-lg-4 cat-breed">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="breed-h3">Shorthair</h3>
+          </div>
+          <div class="card-body">
+            <p class="breed-p2">Regular Vaccination</p>
+            <p class="breed-p2">24*7 Help Center access</p>
+            <p class="breed-p2">Health Insuerance</p>
+            <p class="breed-p2">Reguler Health check visits</p>
+          </div>
+          <button type="button" class="btn btn-outline-success btn-block">Buy Shorthair</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta">
+
+    <h3 class="cta-h3">Find the perfect cat to love for you.</h3>
+    <button type="button" class="btn btn-light btn-lg cta-btn"><i class="fa-solid fa-cat"></i> Select Cat</button>
+    <button type="button" class="btn btn-success btn-lg cta-btn"><i class="fa-solid fa-phone"></i> Call
+      Us</button>
+    
+  </section>
+
+  <section id="footer">
+
+    <i class="footer-icon fa-brands fa-facebook"></i>
+    <i class="footer-icon fa-brands fa-instagram"></i>
+    <i class="footer-icon fa-brands fa-twitter"></i>
+    <p>copyright 2022 © MeowHub </p>
+
+  </section>
+
+</body>
+
+</html>
